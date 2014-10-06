@@ -1,19 +1,7 @@
 ---
 layout: page
-title: About Pixyll
+title: About
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
-
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
-
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+I work at the National Center for Ecological Analysis and Synthesis (but am located at Washington State University), ensuring that data for the [Lake Baikal Dimensions of Biodiversity](http://baikaldimensions.wordpress.com) project are responsibly managed and archived. I manage our group’s blog and tweet at [@kara_woo](http://twitter.com/kara_woo). In addition to data management and aquatic ecology I am passionate about science communication, open science, reproducible research, and diversity in STEM.
