@@ -22,7 +22,8 @@ html, body {
 }
 
 img {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
 }
 
 .site-wrap {
@@ -112,6 +113,19 @@ body {
   margin-top: 0;
   font-weight: 600;
   color: #333;
+}
+
+.post-footer {
+  @extend .italic;
+
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.post-footer .avatar {
+  margin: 2rem 0;
+  width: 100px;
+  border-radius: 50%;
 }
 
 .pagination,
@@ -250,7 +264,7 @@ h6,
   font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 900;
   line-height: 1.2;
-  margin: 1.414em 0 0.5em;
+  margin: 1em 0 0.5em;
 }
 
 .social-icons {

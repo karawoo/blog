@@ -8,7 +8,7 @@ layout: default
 {% endif %}
 
 <div class="post-header mb2">
-  <h1 class="py2">{{ page.title }}</h1>
+  <h1>{{ page.title }}</h1>
   <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span><br>
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
@@ -19,6 +19,10 @@ layout: default
 <article class="post-content">
   {{ content }}
 </article>
+
+{% if site.show_post_footers %}
+  {% include post_footer.html %}
+{% endif %}
 
 {% if site.show_related_posts %}
   <h3 class="related-post-title">Related Posts</h3>
