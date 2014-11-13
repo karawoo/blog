@@ -1,17 +1,18 @@
 # Site settings
-title: Pixyll
-email: your_email@example.com
-author: John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title: kara woo
+email: woo.kara@gmail.com
+author: Kara Woo
+description: "Lake Baikal, data management, open science, social justice"
 baseurl: ""
-url: "http://pixyll.com"
+url: "http://karawoo.github.io"
 google_analytics:
 animated: false
 show_related_posts: false
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-paginate: 3
+permalink: /:year/:month/:day/:title.html
+paginate: 5
 sass:
   compressed: true
