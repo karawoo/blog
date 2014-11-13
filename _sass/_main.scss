@@ -120,6 +120,7 @@ body {
 
   margin-top: .75rem;
   text-align: center;
+
 }
 
 .post-footer .avatar {
@@ -191,16 +192,6 @@ body {
 .button-disabled:focus {
   cursor: not-allowed;
   background-color: #999;
-}
-
-form {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-textarea.input {
-  height: 8em;
 }
 
 p {
