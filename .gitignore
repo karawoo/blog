@@ -1,6 +1,13 @@
 _site
 .sass-cache
 .DS_Store
+/_posts/2014-06-08-pixyll-has-pagination.md
+/_posts/2014-06-09-so-what-is-jekyll.md
+/_posts/2014-06-10-see-pixyll-in-action.md
+/_posts/2014-06-11-welcome-to-pixyll.markdown
+/_posts/2014-10-02-test-post.md
+/images/baikal.JPG
+
 
 # Ignore the config file that's used for gh-pages.
 _config.gh-pages.yml
