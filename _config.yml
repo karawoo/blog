@@ -5,10 +5,26 @@ author: Kara Woo
 description: "Lake Baikal, data management, open science, social justice"
 baseurl: ""
 url: "http://karawoo.github.io"
-google_analytics:
-animated: false
-show_related_posts: false
 timezone: America/Los_Angeles
+
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  true
+
+# Social icons
+show_social_icons: true
+github_username: karawoo
+twitter_username: kara_woo
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
 
 # Build settings
 markdown: kramdown
