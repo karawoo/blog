@@ -2,25 +2,25 @@
 layout:     post
 title:      Reconfiguring keyboard layouts in Ubuntu 14.04
 date:       2014-11-12 13:03
-summary:    How to customize keyboard layouts in Ubuntu.
+summary:    How to customize keyboard layouts in Ubuntu and get a Russian phonetic keyboard that makes more sense.
 comments:   True
 categories: linux keyboard configuration ubuntu
 ---
 
 In my work on the
 [Lake Baikal Dimensions of Biodiversity](http://baikaldimensions.wordpress.com)
-project I frequently need to translate texts and correspondence between Russian
-and English. I never learned to use a standard Russian keyboard so I rely on a
-phonetic keyboard, which fortunately Ubuntu has built in. However, some of the
-default letter placements make no sense to me (Ж mapped to V? Seriously?) and,
-more importantly, they're very different from the OS X phonetic Russian keyboard
-I'm already accustomed to. I spent some time today reconfiguring the keyboard
-layout to my liking; here's a quick guide if you would like to do the same.
+project I frequently translate texts and correspondence between Russian and
+English. I never learned to use a standard Russian keyboard so I rely on a
+phonetic keyboard. However, some of the default letter placements on Ubuntu make
+no sense to me (Ж mapped to V? Seriously?) and, more importantly, they're very
+different from the OS X phonetic Russian keyboard I'm already accustomed to. I
+spent some time today reconfiguring the keyboard layout to my liking; here's a
+quick guide if you would like to do the same.
 
 First, open up a terminal and navigate to the location where the keyboard
 configurations are stored (see below). Then create a backup of the Russian
-keyboard file in case anything goes wrong or you decide you want it back the way
-it was.
+keyboard file in case anything goes wrong or you decide you want things back the
+way they were.
 
 {% highlight bash %}
 cd /usr/share/X11/xkb/symbols
@@ -74,10 +74,9 @@ xkb_symbols "common" {
 the phonetic layout, indicated by `xkb_symbols "phonetic"`.
 
 Now comes the long, tedious part where you change all the offending letter
-placements. I did this by comparing all of the keys to a picture
-of the OS X phonetic Russian keyboard and editing the key mappings
-accordingly. But you can take advantage of my labors and just copy/paste my
-settings into your file:
+placements. I did this by comparing all of the keys to a picture of the OS X
+phonetic Russian keyboard and editing the key mappings accordingly. But you can
+take advantage of my labors and just copy/paste my settings into your file:
 
 {% highlight bash %}
 partial alphanumeric_keys
@@ -142,7 +141,7 @@ xkb_symbols "phonetic" {
 Note: I didn't bother mapping Ё to anything because I never use it.
 
 Save the file and exit. At this point I restarted my computer, expecting the new
-settings to take effect automatically as the [helpful](http://www.dotkam.com/2007/06/25/custom-keyboard-layout-in-ubuntu-or-just-linux-2/) [tutorials](http://stanford.edu/~wbraynen/linux/) I read suggested. On Ubuntu 14.04 [one more step](http://askubuntu.com/a/439198/342035) was needed; open up a terminal and type:
+settings to take effect automatically as the [helpful](http://www.dotkam.com/2007/06/25/custom-keyboard-layout-in-ubuntu-or-just-linux-2/) [tutorials](http://stanford.edu/~wbraynen/linux/) I read suggested. However, on Ubuntu 14.04 [one more step](http://askubuntu.com/a/439198/342035) is needed; open up a terminal and type:
 
 {% highlight bash %}
 sudo dpkg-reconfigure xkb-data
