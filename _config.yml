@@ -8,7 +8,7 @@ url: "http://karawoo.com"
 timezone: America/Los_Angeles
 
 # Google analytics
-google_analytics:
+google_analytics: UA-50579324-1
 
 # Optional features
 animated:           false
