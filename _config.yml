@@ -3,8 +3,8 @@ title: Kara Woo
 email: woo.kara@gmail.com
 author: Kara Woo
 description: "Lake Baikal, data management, open science, social justice"
-baseurl: ""
-url: "http://blog.karawoo.com"
+baseurl: "/blog"
+url: "http://karawoo.com"
 timezone: America/Los_Angeles
 
 # Google analytics
