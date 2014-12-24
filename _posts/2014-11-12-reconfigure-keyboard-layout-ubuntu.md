@@ -5,6 +5,7 @@ date:       2014-11-12 13:03
 summary:    How to customize keyboard layouts in Ubuntu and get a Russian phonetic keyboard that makes more sense.
 comments:   True
 published:  True
+redirect_from: "2014/11/12/reconfigure-keyboard-layout-ubuntu.html"
 tags:       ['linux', 'keyboard configuration', 'ubuntu']
 categories: ['linux', 'keyboard configuration', 'ubuntu']
 ---

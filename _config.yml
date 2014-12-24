@@ -28,7 +28,12 @@ flattr_button:
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title
 paginate: 5
 sass:
   compressed: true
+
+
+# Gems
+gems:
+  - jekyll-redirect-from
