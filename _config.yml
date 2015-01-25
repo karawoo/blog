@@ -15,10 +15,15 @@ animated:           false
 show_related_posts: false
 show_post_footers:  true
 
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: karawoo
+
 # Social icons
 show_social_icons: true
 github_username: karawoo
 twitter_username: kara_woo
+stackoverflow_id:
 google_plus_id:
 linkedin_username: karawoo
 bitcoin_url:
@@ -27,13 +32,12 @@ flattr_button:
 
 
 # Build settings
-markdown: kramdown
-permalink: /:year/:month/:day/:title
-paginate: 5
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     3
 sass:
   compressed: true
-
-
-# Gems
 gems:
-  - jekyll-redirect-from
+  - jekyll-sitemap
