@@ -9,6 +9,8 @@ tags:       ['R', 'Shiny']
 categories: ['R', 'Shiny']
 ---
 
+_Update: a followup to this post can be found [here]({% post_url 2015-02-21-shinyappsio-followup %})._
+
 [Shiny](http://shiny.rstudio.com/) has been on my list of things to try out for
 quite some time. With it you can make interactive web applications directly in
 R. Earlier this week I attended a Shiny webinar for
