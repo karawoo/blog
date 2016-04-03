@@ -34,7 +34,7 @@ orcid: 0000-0002-5125-4188
 
 
 # Build settings
-markdown:     redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink: /:year/:month/:day/:title
