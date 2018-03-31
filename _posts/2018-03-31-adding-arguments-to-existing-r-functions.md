@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Adding arguments to existing R functions
+title:      Adding arguments to existing R functions, or A Weirdly Esoteric Thing I'll Probably Never Do Again
 date:       2018-03-31 01:00
 output: 
   md_document:
@@ -11,8 +11,6 @@ published:  True
 tags:       ['R']
 categories: ['R']
 ---
-
-
 
 Typically when writing an R function you include any arguments to the function,
 and default values if applicable, in the definition like so:
@@ -90,7 +88,7 @@ add
 ## {
 ##     x + y
 ## }
-## <environment: 0x7fe633cc8388>
+## <environment: 0x7fcce5b22988>
 {% endhighlight %}
 
 
@@ -150,7 +148,7 @@ add
 ## {
 ##     x + y
 ## }
-## <environment: 0x7fe633cc8388>
+## <environment: 0x7fcce5b22988>
 {% endhighlight %}
 
 
@@ -283,7 +281,7 @@ add
 ## {
 ##     x + y
 ## }
-## <environment: 0x7fe633cc8388>
+## <environment: 0x7fcce5b22988>
 {% endhighlight %}
 
 Now, what if our list needs to contain a mix of arguments with defaults and
@@ -435,7 +433,7 @@ add
 ## {
 ##     x + y + z
 ## }
-## <environment: 0x7fe633cc8388>
+## <environment: 0x7fcce5b22988>
 {% endhighlight %}
 
 So yeah...this was not exactly pretty, and again you probably don't want to do

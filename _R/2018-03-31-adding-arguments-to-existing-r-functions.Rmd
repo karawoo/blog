@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Adding arguments to existing R functions
+title:      Adding arguments to existing R functions, or A Weirdly Esoteric Thing I'll Probably Never Do Again
 date:       2018-03-31 01:00
 output: 
   md_document:
@@ -11,8 +11,6 @@ published:  True
 tags:       ['R']
 categories: ['R']
 ---
-
-
 
 Typically when writing an R function you include any arguments to the function,
 and default values if applicable, in the definition like so:
