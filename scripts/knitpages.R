@@ -6,7 +6,8 @@
 # compiles all .Rmd files in _R directory into .md files in Pages directory,
 # if the input file is older than the output file.
 
-# run ./knitpages.R to update all knitr files that need to be updated.
+# run ./scripts/knitpages.R from the root of the blog to update all knitr files
+# that need to be updated.
 
 KnitPost <- function(input, outfile, figsfolder, cachefolder, base.url="/") {
     # this function is a modified version of an example here:

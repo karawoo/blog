@@ -4,6 +4,7 @@ _site
 /_posts/2014-10-02-test-post.md
 /images/baikal.JPG
 /images/20150218_shiny.mov
+Gemfile.lock
 
 
 # Ignore the config file that's used for gh-pages.
